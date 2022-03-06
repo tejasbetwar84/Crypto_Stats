@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-// mongoose.connect('mongodb+srv://tejasbetwar:tejas123@cluster0.3teej.mongodb.net/Crypto_db');
+
 mongoose.connect('mongodb://localhost/crypto_db')
 const my_database=mongoose.connection;
 
